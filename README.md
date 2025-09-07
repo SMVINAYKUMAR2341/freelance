@@ -1,7 +1,4 @@
-Perfect 👍 Let’s create a **README.md** file for your project based on the details you provided.
-This will look professional and explain everything clearly for contributors, hackathons, or GitHub.
-
----
+-
 
 # 📄 README.md
 
@@ -69,8 +66,7 @@ SkillChain leverages **Aptos Move smart contracts** to provide:
 ## 🛠️ Tech Stack  
 - **Blockchain**: Aptos (Move smart contracts)  
 - **Frontend**: ReactJS (Vite/Next.js)  
-- **Backend**: Node.js + Express.js  
-- **Database**: MongoDB (for metadata & user preferences)  
+- **Backend**: Node.js + Express.js   
 - **Authentication**: Wallet login + Firebase (optional)  
 - **Payments**: Stablecoin escrow via Aptos contracts  
 - **AI Layer**: Matching engine + skill verification tests  
