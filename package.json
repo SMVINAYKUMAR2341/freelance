@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "aptos-freelance-platform",
+  "version": "1.0.0",
+  "description": "A Web3 freelance platform built on Aptos with escrow transactions and skill badges",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile-move": "aptos move compile",
+    "test-move": "aptos move test",
+    "publish-move": "aptos move publish"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@aptos-labs/ts-sdk": "^1.26.0",
+    "@aptos-labs/wallet-adapter-react": "^3.5.0",
+    "@aptos-labs/wallet-adapter-core": "^4.15.0",
+    "@aptos-labs/wallet-adapter-ant-design": "^2.0.5",
+    "petra-plugin-wallet-adapter": "^0.4.5",
+    "@martianwallet/aptos-wallet-adapter": "^0.0.6",
+    "antd": "^5.12.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "lucide-react": "^0.294.0",
+    "framer-motion": "^10.16.0",
+    "react-hot-toast": "^2.4.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "aptos",
+    "web3",
+    "freelance",
+    "escrow",
+    "blockchain",
+    "move"
+  ],
+  "author": "Aptos Freelance Platform",
+  "license": "MIT"
+}

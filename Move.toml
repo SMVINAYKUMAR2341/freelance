@@ -1,0 +1,23 @@
+[package]
+name = "FreelancePlatform"
+version = "1.0.0"
+authors = ["Aptos Freelance Platform"]
+
+[addresses]
+# Standard library
+std = "0x1"
+
+# Replace this with your Aptos account address for testnet/mainnet deployment
+# Example: "0xa550c18"
+freelance_platform = "0x1fc39654ce9cc52d87de718486967f5f633107ba76224d08ee37b63fa6bb5b86"
+
+[dev-addresses]
+# For local development, you can use a short dummy address
+freelance_platform = "0x123"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
