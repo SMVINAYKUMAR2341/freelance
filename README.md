@@ -95,5 +95,5 @@ SkillChain leverages **Aptos Move smart contracts** to provide:
 
 ### 🔹 Clone Repository  
 ```bash
-git clone https://github.com/your-username/skillchain.git
-cd skillchain
+git clone https://github.com/your-username/freelance.git
+cd freelance
